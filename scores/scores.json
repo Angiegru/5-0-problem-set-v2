@@ -32,17 +32,7 @@
     "From Scratch Tests has a script that creates an p with the right class": "FrScTe5"
   },
   "testScores": {
-    "Modify Tests": {
-      "MoTe1": 1,
-      "MoTe2": 1,
-      "MoTe3": 1,
-      "MoTe4": 1,
-      "MoTe5": 1,
-      "MoTe6": 1,
-      "MoTe7": 0,
-      "MoTe8": 0,
-      "MoTe9": 0
-    },
+    "Modify Tests": {},
     "From Scratch Tests": {
       "FrScTe1": 0,
       "FrScTe2": 0,
@@ -52,8 +42,8 @@
     }
   },
   "humanReadable": {
-    "Modify Tests": "6/9",
-    "finalTestScore": "FINAL SCORE: 6/14",
+    "Modify Tests": "0/0",
+    "finalTestScore": "FINAL SCORE: 0/5",
     "From Scratch Tests": "0/5"
   }
 }
