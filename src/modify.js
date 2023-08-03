@@ -49,7 +49,17 @@ const makeAlphabet = () => {
 };
 
 const makeBio = () => {
+  let bioDiv = document.querySelector("#my-bio");
+  bioDiv.innerHTML = `<h2 id="bio-heading">About Me</h2>
+    <p>My name is Zo and I like learn cool new things</p>
+    <h3 id="hobby-heading">My Hobbies</h3>
+    <ul>
+    <li>Running</li>
+    <li>Reading</li>
+    <li>Writing</li>
+    </ul>`;
 };
+
 
 const main = () => {
   // read
