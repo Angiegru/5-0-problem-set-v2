@@ -39,13 +39,13 @@ const removeOldInfo = () => {
 };
 
 const makeAlphabet = () => {
-  // const alphabetMix = document.querySelector(`#alphabet`);
-  // const numLetters = Number(alphebetMix.dataset.numLetters);
-  // for(let i = 0; i < numLetters; i++){
-  //   const setLi = document.createElement('li');
-  //   setLi.textContent = `${alphabetMix[i]} is letter #${[i + 1]} in the alphabet`;
-  //   alphabetMix.appendChild(setLi);
-  // }
+  const alphabetMix = document.querySelector(`#alphabet`);
+  const numLetters = Number(alphabetMix.dataset.numLetters);
+  for(let i = 0; i < numLetters; i++){
+    const setLi = document.createElement('li');
+    setLi.textContent = `${alphabetMix[i]} is letter #${[i + 1]} in the alphabet`;
+    alphabetMix.appendChild(setLi);
+  }
 };
 
 const makeBio = () => {
